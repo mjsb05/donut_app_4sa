@@ -1,8 +1,11 @@
 import 'package:donut_app_4sa/pages/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:donut_app_4sa/utils/services/cart_services.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(ChangeNotifierProvider(
+      create: (context) => CartService(), child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {

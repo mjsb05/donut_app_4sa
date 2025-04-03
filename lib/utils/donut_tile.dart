@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:donut_app_4sa/utils/add_to_cart.dart';
 
 class DonutTile extends StatelessWidget {
   final dynamic donutColor;
@@ -66,14 +67,10 @@ class DonutTile extends StatelessWidget {
                       onPressed: () {},
                       icon: Icon(Icons.favorite_border_outlined,
                           color: donutColor[800])),
-                  TextButton(
-                      onPressed: () {},
-                      child: Text("ADD",
-                          style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w800,
-                              color: donutColor[800],
-                              decoration: TextDecoration.underline))),
+                  AddToCartButton(
+                    buttonColor: donutColor,
+                    donutPrice: donutPrice,
+                  ),
                 ],
               )
             ],
