@@ -5,13 +5,15 @@ class DonutTile extends StatelessWidget {
   final String donutPrice;
   final String donutFlavor;
   final String imageName;
+  final String donutStore;
 
   const DonutTile(
       {super.key,
       required this.imageName,
       required this.donutColor,
       required this.donutPrice,
-      required this.donutFlavor});
+      required this.donutFlavor,
+      required this.donutStore});
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +54,7 @@ class DonutTile extends StatelessWidget {
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
                   )),
-              Text("holi",
+              Text(donutStore,
                   style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w300,
