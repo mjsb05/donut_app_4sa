@@ -1,21 +1,20 @@
-import 'package:donut_app_4sa/tabs/smoothie_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:donut_app_4sa/utils/add_to_cart.dart';
 
-class SmoothieTile extends StatelessWidget {
-  final dynamic smoothieColor;
-  final String smoothiePrice;
-  final String smoothieFlavor;
+class PanckakesTile extends StatelessWidget {
+  final dynamic panckakesColor;
+  final String panckakesPrice;
+  final String panckakesFlavor;
   final String imageName;
-  final String smoothieStore;
+  final String panckakesStore;
 
-  const SmoothieTile(
+  const PanckakesTile(
       {super.key,
       required this.imageName,
-      required this.smoothieColor,
-      required this.smoothiePrice,
-      required this.smoothieFlavor,
-      required this.smoothieStore});
+      required this.panckakesColor,
+      required this.panckakesPrice,
+      required this.panckakesFlavor,
+      required this.panckakesStore});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +24,7 @@ class SmoothieTile extends StatelessWidget {
           //color: donutColor[50],
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(24), //esquinas redondeadas
-            color: smoothieColor[50],
+            color: panckakesColor[50],
           ),
           child: Column(
             children: [
@@ -35,13 +34,13 @@ class SmoothieTile extends StatelessWidget {
                     borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(24),
                         topRight: Radius.circular(24)),
-                    color: smoothieColor[100],
+                    color: panckakesColor[100],
                   ),
                   padding:
                       const EdgeInsets.symmetric(vertical: 8, horizontal: 18),
-                  child: Text("\$$smoothiePrice",
+                  child: Text("\$$panckakesPrice",
                       style: TextStyle(
-                          color: smoothieColor[800],
+                          color: panckakesColor[800],
                           fontWeight: FontWeight.bold,
                           fontSize: 18)),
                 )
@@ -51,26 +50,26 @@ class SmoothieTile extends StatelessWidget {
                     const EdgeInsets.symmetric(horizontal: 24, vertical: 0),
                 child: Image.asset(imageName),
               ),
-              Text(smoothieFlavor,
+              Text(panckakesFlavor,
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
                   )),
-              Text(smoothieStore,
+              Text(panckakesStore,
                   style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w300,
-                      color: smoothieColor[800])),
+                      color: panckakesColor[800])),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   IconButton(
                       onPressed: () {},
                       icon: Icon(Icons.favorite_border_outlined,
-                          color: smoothieColor[800])),
+                          color: panckakesColor[800])),
                   AddToCartButton(
-                    buttonColor: smoothieColor,
-                    donutPrice: smoothiePrice,
+                    buttonColor: panckakesColor,
+                    donutPrice: panckakesPrice,
                   ),
                 ],
               )

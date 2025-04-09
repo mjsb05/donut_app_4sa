@@ -37,7 +37,7 @@ class DonutTab extends StatelessWidget {
       "Piña loca",
       "28",
       Colors.pink,
-      "lib/images/donuts/piña.png",
+      "lib/images/donuts/pina.png",
       "Morayta Donuts"
     ],
     [
