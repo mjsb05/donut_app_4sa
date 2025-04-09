@@ -64,7 +64,7 @@ flutter:
   - lib/images/smoothies/
   - lib/images/donuts/
   - lib/images/burguer/
-  - lib/images/pancakes
+  - lib/images/pancakes/
   - lib/images/pizzas/
 
   # An image asset can refer to one or more resolution-specific "variants", see

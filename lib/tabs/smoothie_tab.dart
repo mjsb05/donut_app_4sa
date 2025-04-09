@@ -11,7 +11,13 @@ class SmoothieTab extends StatelessWidget {
       "lib/images/smoothies/banana.png",
       "Pizza Hut"
     ],
-    ["Ha", "25", Colors.red, "lib/images/pancakes/piña.png", "Little Caesars"],
+    [
+      "Ha",
+      "25",
+      Colors.red,
+      "lib/images/pancakes/pineaple.png",
+      "Little Caesars"
+    ],
     [
       "Chamoy",
       "25",

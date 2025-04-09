@@ -7,8 +7,14 @@ class BurgerTab extends StatelessWidget {
   final List burgersOnSale = [
     ["1", "20", Colors.blue, "lib/images/burguer/simple.png", "Krispy Kreme"],
     ["2", "20", Colors.blue, "lib/images/burguer/pollo.png", "Krispy Kreme"],
-    ["3", "20", Colors.blue, "lib/images/burguer/cheese.png", "Krispy Kreme"],
-    ["4", "20", Colors.blue, "lib/images/burguer/vegetarian.png", "Krispy Kreme"],
+    ["3", "20", Colors.blue, "lib/images/burguer/Cheese.png", "Krispy Kreme"],
+    [
+      "4",
+      "20",
+      Colors.blue,
+      "lib/images/burguer/vegetarian.png",
+      "Krispy Kreme"
+    ],
     ["5", "20", Colors.blue, "lib/images/burguer/bbq.png", "Krispy Kreme"],
     ["6", "20", Colors.blue, "lib/images/burguer/tapa.png", "Krispy Kreme"],
     ["7", "20", Colors.blue, "lib/images/burguer/rubius.png", "Krispy Kreme"],

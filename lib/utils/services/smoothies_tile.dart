@@ -1,4 +1,3 @@
-import 'package:donut_app_4sa/tabs/smoothie_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:donut_app_4sa/utils/add_to_cart.dart';
 
