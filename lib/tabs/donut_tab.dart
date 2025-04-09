@@ -34,31 +34,31 @@ class DonutTab extends StatelessWidget {
       "Morayta Donuts"
     ],
     [
-      "Choco",
-      "23",
+      "Piña loca",
+      "28",
       Colors.pink,
-      "lib/images/donuts/chocolate.png",
+      "lib/images/donuts/piña.png",
       "Morayta Donuts"
     ],
     [
-      "Choco",
-      "23",
+      "Rellena",
+      "30",
       Colors.pink,
-      "lib/images/donuts/chocolate.png",
+      "lib/images/donuts/rellena.png",
       "Morayta Donuts"
     ],
     [
-      "Choco",
-      "23",
+      "Brownie",
+      "30",
       Colors.pink,
-      "lib/images/donuts/chocolate.png",
+      "lib/images/donuts/brownie.png",
       "Morayta Donuts"
     ],
     [
-      "Choco",
-      "23",
+      "Bites",
+      "35",
       Colors.pink,
-      "lib/images/donuts/chocolate.png",
+      "lib/images/donuts/bites.png",
       "Morayta Donuts"
     ],
   ];
@@ -70,12 +70,12 @@ class DonutTab extends StatelessWidget {
         //Prepa 1
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             //Scroll personalizado
-            //Número de columna
+            //Número de column
             crossAxisCount: 2,
             childAspectRatio: 1 / 1.5),
 
         //Cuantos elementos
-        itemCount: 4,
+        itemCount: 8,
         padding: const EdgeInsets.all(24.0),
         //Construir elementos
         itemBuilder: (context, index) {
